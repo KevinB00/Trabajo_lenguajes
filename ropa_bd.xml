@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
+<MUJER>
 <!-- SUDADERAS Y CAMISETAS -->
 <ITEM>
 	<ID>1</ID>
@@ -95,5 +96,102 @@
 	<NOMBRE>Nike City</NOMBRE>
 	<PRECIO>54,95</PRECIO>
 </ITEM>
-
-</baseDeDatos >
+</MUJER>
+<HOMBRE>
+	<!-- SUDADERAS Y CAMISETAS -->
+	<ITEM>
+		<ID>19</ID>
+		<NOMBRE>Camiseta print Metallica mariposa</NOMBRE>
+		<PRECIO>15,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>20</ID>
+		<NOMBRE>Sudadera firma Kenny Scharf</NOMBRE>
+		<PRECIO>29,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>21</ID>
+		<NOMBRE>adidas Adicolor Classics 3-Stripes Long-sleeve</NOMBRE>
+		<PRECIO>37,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>22</ID>
+		<NOMBRE>Camiseta manga corta extra loose print</NOMBRE>
+		<PRECIO>15,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>23</ID>
+		<NOMBRE>New Era Nba Water Reflectionshortsleeve Tee</NOMBRE>
+		<PRECIO>37,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>24</ID>
+		<NOMBRE>Camiseta estampada Relaxed Fit></NOMBRE>
+		<PRECIO>19,99</PRECIO>
+	</ITEM>
+	
+	<!-- PANTALONES Y MALLAS -->
+	<ITEM>
+		<ID>25</ID>
+		<NOMBRE>BERMUDA JOGGER LAVADO COLOR</NOMBRE>
+		<PRECIO>12,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>26</ID>
+		<NOMBRE>Fresh Ego Kid Varsity Cuffed Pant</NOMBRE>
+		<PRECIO>64,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>27</ID>
+		<NOMBRE>CrooksCastles Crooks Miami Basketball Short</NOMBRE>
+		<PRECIO>39,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>28</ID>
+		<NOMBRE>Jeans baggy parches</NOMBRE>
+		<PRECIO>35,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>29</ID>
+		<NOMBRE>Jeans carpenter color</NOMBRE>
+		<PRECIO>35,99€</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>30</ID>
+		<NOMBRE>JEANS BAGGY FIT</NOMBRE>
+		<PRECIO>35,99</PRECIO>
+	</ITEM>
+	
+	<!-- ZAPATILLAS -->
+	<ITEM>
+		<ID>31</ID>
+		<NOMBRE>Top Ten</NOMBRE>
+		<PRECIO>84,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>32</ID>
+		<NOMBRE>Puma Mirage Sport</NOMBRE>
+		<PRECIO>99,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>33</ID>
+		<NOMBRE>New Balance 327</NOMBRE>
+		<PRECIO>49,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>34</ID>
+		<NOMBRE>Jordan 1 Element Gore-Tex</NOMBRE>
+		<PRECIO>179,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>35</ID>
+		<NOMBRE>Jordan Series Es</NOMBRE>
+		<PRECIO>79,99</PRECIO>
+	</ITEM>
+	<ITEM>
+		<ID>36</ID>
+		<NOMBRE>Converse UNT1TL3D</NOMBRE>
+		<PRECIO>59,99</PRECIO>
+	</ITEM>
+</HOMBRE>
+</CATALOG >
