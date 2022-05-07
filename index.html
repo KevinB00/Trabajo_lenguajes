@@ -86,7 +86,43 @@
 
         </section>
     <!--Fin de ropa de mujer-->
+    <br>
+    <button type="button" onclick="loadDoc()">Tabla de ropa</button>
+    <br><br>
+    <table id="demo"></table>
+
+    <!-- Función para cargar el XML (no funciona porque tiene que estar alojada en internet) -->
+
+    <script>
+    function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xhttp.open("GET", "ropa_bd.xml", true);
+      xhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>ID</th><th>Nombre</th><th>Precio</th></tr>";
+      var x = xmlDoc.getElementsByTagName("ITEM");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName(" NOMBRE")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("PRECIO")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script> 
         <footer><!--Pie de página con el enlace de Atención al cliente-->
+            
             <p>IES Serpis</p>
             <a href="Contacto.html">Atención al cliente</a>
             <p>©Copyright 05/2022. All rights reversed.</p>
