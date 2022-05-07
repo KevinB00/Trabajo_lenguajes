@@ -1,0 +1,98 @@
+<CATALOG>
+<!-- SUDADERAS Y CAMISETAS -->
+<ITEM>
+	<ID>1</ID>
+	<NOMBRE>Sudadera Puma Power negra capucha</NOMBRE>
+	<PRECIO>39,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>2</ID>
+	<NOMBRE>Sudadera Puma rosa capucha</NOMBRE>
+	<PRECIO>29,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>3</ID>
+	<NOMBRE>Sudadera Adidas</NOMBRE>
+	<PRECIO>40,00</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>4</ID>
+	<NOMBRE>Adidas Future Icons Winners 3.0</NOMBRE>
+	<PRECIO>32,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>5</ID>
+	<NOMBRE>New Balance Essentials Stacked Logo</NOMBRE>
+	<PRECIO>29,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>6</ID>
+	<NOMBRE>Asics Camiseta Manga Corta Race Cropa</NOMBRE>
+	<PRECIO>26,24</PRECIO>
+</ITEM>
+
+<!-- PANTALONES Y MALLAS -->
+<ITEM>
+	<ID>7</ID>
+	<NOMBRE>Fila Fitness</NOMBRE>
+	<PRECIO>19,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>8</ID>
+	<NOMBRE>Fila Pava</NOMBRE>
+	<PRECIO>19,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>9</ID>
+	<NOMBRE>Under Armour Rock Heatgear Bike Short</NOMBRE>
+	<PRECIO>34,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>10</ID>
+	<NOMBRE>Adidas Originals Aerobic Tight</NOMBRE>
+	<PRECIO>35,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>11</ID>
+	<NOMBRE>Boriken Outdoor Montaña</NOMBRE>
+	<PRECIO>39,99€</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>12</ID>
+	<NOMBRE>Nike Essentials</NOMBRE>
+	<PRECIO>30,00</PRECIO>
+</ITEM>
+
+<!-- ZAPATILLAS -->
+<ITEM>
+	<ID>13</ID>
+	<NOMBRE>Converse Chuck Taylor All Sta</NOMBRE>
+	<PRECIO>54,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>14</ID>
+	<NOMBRE>Asics Novablast </NOMBRE>
+	<PRECIO>129,00</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>15</ID>
+	<NOMBRE>Buffalo Asph</NOMBRE>
+	<PRECIO>104,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>16</ID>
+	<NOMBRE>Vans Authentic Earthday</NOMBRE>
+	<PRECIO>69,99</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>17</ID>
+	<NOMBRE>Skechers Sneakers Retros gold</NOMBRE>
+	<PRECIO>53,96</PRECIO>
+</ITEM>
+<ITEM>
+	<ID>18</ID>
+	<NOMBRE>Nike City</NOMBRE>
+	<PRECIO>54,95</PRECIO>
+</ITEM>
+
+</baseDeDatos >
