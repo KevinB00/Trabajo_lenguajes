@@ -90,6 +90,7 @@ footer>ul {
 table{
     width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 table, th, td{
@@ -100,7 +101,9 @@ table, th, td{
 td{
     float: left;
     margin: 10px;
+    width: 32%;
 }
+
 
 
 img{
@@ -122,4 +125,5 @@ img{
 @media only screen and (max-width: 800px){
 	nav>ul>li {margin: 0px 5px 2px;}
     nav>ul>li {float: left;}
+    td {width: auto;}
 }
