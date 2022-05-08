@@ -2,241 +2,262 @@
 <!--creo la pagina según lo acordado-->
 <!DOCTYPE html>
 <html>
-    <head>
-<!-- el ancho con el que prefiere visualizar
+
+<head>
+    <!-- el ancho con el que prefiere visualizar
 una página, título etc-->
-        <meta name="trabajo" content="pagina_principal">
-        <title>RopaDK</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="trabajo" content="pagina_principal">
+    <title>RopaDK</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Llamada al metodo que recupera la base de dats XML-->
+    <script>
+        window.onload = function () {
+            loadDoc();
+        };
+    </script>
 
-    </head>
-    <!-- color de fondo página -->
-    <body style="background-color: plum;">
+</head>
+<!-- color de fondo página -->
 
-        <header>
-            <!-- en lace a página principal-->
-            <!-- <h1><a href="index.html">RopaDK</a></h1> -->
-				<a href="index.html">
-					<img id="logo" src="img/Logo.png">
-                </a>
-				<h1>RopaDK</h1>					
-				
-          
-        </header>
-      
-            <nav>
-                <ul id="navegacion"><!--Enlaces dónde contendran toda la ropa, calzado y atención cliente-->
-                   <li><a href="ropaHombre.html">Ropa para hombre</a></li>
-                   <li><a href="Contacto.html">Atención al cliente</a></li>
-                </ul>
-            </nav>
+<body style="background-color: plum;">
 
-            <article>
-                <!--Sección primera-->
-                <h2>Sudaderas y camisetas</h2>
-<!--Tabla para introducir las imágenes de la ropa etc.-->
-                <table>
-                    <tr>
-                        <td>
-                            <img src="img/Puma Power1.png">
-                            <br>
-                            <p><b>Sudadera Puma Power negra capucha<br>
-                                39,99€ </b>
-							</p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/Sudadera Puma2.png">
-                            <br>
-                            <p><b>Sudadera Puma rosa capucha<br>
-                                29,99€ 
-							</b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/Sudadera Adidas3.png">
-                            <br>
-                            <p><b>Sudadera Adidas<br>
-                            40,00€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/camiseta4.png">
-                            <br>
-                            <p><b>Adidas Future Icons Winners 3.0<br>
-                            32,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/camiseta5.png">
-                            <br>
-                            <p><b>New Balance Essentials Stacked Logo<br>
-                           22,49€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/camiseta6.png">
-                            <br>
-                            <p><b>Asics Camiseta Manga Corta Race Crop<br>
-                            26,24€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                    </tr>
-                </table>
+    <header>
+        <!-- en lace a página principal-->
+        <!-- <h1><a href="index.html">RopaDK</a></h1> -->
+        <a href="index.html">
+            <img id="logo" src="img/Logo.png" alt="RopaDK">
+        </a>
+        <h1>RopaDK</h1>
+    </header>
 
-            </article>
+    <nav>
+        <ul id="navegacion">
+            <!--Enlaces dónde contendran toda la ropa, calzado y atención cliente-->
+            <li><a href="ropaHombre.html">Ropa para hombre</a></li>
+            <li><a href="Contacto.html">Atención al cliente</a></li>
+        </ul>
+    </nav>
 
-            <br>
-            <hr>
+    <article>
+        <!--Sección primera-->
+        <h2>Sudaderas y camisetas</h2>
+        <!--Tabla para introducir las imágenes de la ropa etc.-->
+        <table>
+            <tr>
+                <td>
+                    <img src="img/Puma Power1.png" alt="sudadera">
+                    <br>
+                    <p><b>Sudadera Puma Power negra capucha<br>
+                            39,99€ </b>
+                    </p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/Sudadera Puma2.png" alt="sudadera">
+                    <br>
+                    <p><b>Sudadera Puma rosa capucha<br>
+                            29,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/Sudadera Adidas3.png" alt="sudadera">
+                    <br>
+                    <p><b>Sudadera Adidas<br>
+                            40,00€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/camiseta4.png" alt="camiseta">
+                    <br>
+                    <p><b>Adidas Future Icons Winners 3.0<br>
+                            32,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/camiseta5.png" alt="camiseta">
+                    <br>
+                    <p><b>New Balance Essentials Stacked Logo<br>
+                            22,49€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/camiseta6.png" alt="camiseta">
+                    <br>
+                    <p><b>Asics Camiseta Manga Corta Race Crop<br>
+                            26,24€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+            </tr>
+        </table>
 
-            <article>
-                <!--Sección segunda-->
-                <h2>Pantalones y mallas</h2>
+    </article>
 
-                <table>
-                    <tr>
-                        <td>
-                            <img src="img/pantalon1.png">
-                            <br>
-                            <p><b>Fila Fitness<br>
-                            19,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/pantalon2.png">
-                            <br>
-                            <p><b>Fila Pava<br>
-                            19,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/pantalon3.png">
-                            <br>
-                            <p><b>Under Armour Rock Heatgear Bike Short<br>
-                            34,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/pantalon4.png">
-                            <br>
-                            <p><b>Adidas Originals Aerobic Tight<br>
-                            35,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                         <td>
-                            <img src="img/pantalon5.png">
-                            <br>
-                            <p><b>Boriken Outdoor Montaña<br>
-                            39,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                         <td>
-                            <img src="img/pantalon6.png">
-                            <br>
-                            <p><b>Nike Essentials<br>
-                            30,00€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                    </tr>
-                </table>
+    <br>
+    <hr>
 
-            </article>
+    <article>
+        <!--Sección segunda-->
+        <h2>Pantalones y mallas</h2>
 
-            <br>
-            <hr>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/pantalon1.png" alt="corto">
+                    <br>
+                    <p><b>Fila Fitness<br>
+                            19,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/pantalon2.png" alt="corto">
+                    <br>
+                    <p><b>Fila Pava<br>
+                            19,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/pantalon3.png" alt="malla corta">
+                    <br>
+                    <p><b>Under Armour Rock Heatgear Bike Short<br>
+                            34,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/pantalon4.png" alt="malla larga">
+                    <br>
+                    <p><b>Adidas Originals Aerobic Tight<br>
+                            35,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/pantalon5.png" alt="largo">
+                    <br>
+                    <p><b>Boriken Outdoor Montaña<br>
+                            39,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/pantalon6.png" alt="largo">
+                    <br>
+                    <p><b>Nike Essentials<br>
+                            30,00€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+            </tr>
+        </table>
 
-            <article>
-                <!--Sección tercera-->
-                <h2>Zapatillas</h2>
+    </article>
 
-                <table>
-                    <tr>
-                        <td>
-                            <img src="img/zapatilla1.png"> 
-                            <br>
-                            <p><b>Converse Chuck Taylor All Star<br>
-                            54,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/zapatilla2.png">
-                            <br>
-                            <p><b>Asics Novablast 2<br>
-                            129,00€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/zapatilla3.png">
-                            <br>
-                            <p><b>Buffalo Aspha<br>
-                            104,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/zapatilla4.png"> 
-                            <br>
-                            <p><b>Vans Authentic Earthday<br>
-                            69,99€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                        <td>
-                            <img src="img/zapatilla5.png">
-                            <br>
-                            <p><b>Skechers Sneakers Retros gold<br>
-                            53,96€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                         <td>
-                            <img src="img/zapatilla6.png">
-                            <br>
-                            <p><b>Nike City<br>
-                            54,95€ 
-                            </b></p>
-							<button onclick="">Comprar</button>
-                        </td>
-                    </tr>
-                </table>
+    <br>
+    <hr>
 
-            </article>
-<!--Pie de página con el enlace de Atención al cliente-->
-            <footer>
-            <p>IES Serpis</p>
-            <a href="Contacto.html">Atención al cliente</a>
-            <p>©Copyright 05/2022. All rights reversed.</p>
-                <small>David Guaita Onsurbe</small><br>
-                <small>Kevin Rodrigo Buenaño Evans</small>
-            </footer><!--Fin del pie de página-->
-		<!-- Función para cargar el XML (no funciona porque tiene que estar alojada en internet) -->
-			<!--<script>
-				function loadDoc() {
-				  var xhttp = new XMLHttpRequest();
-				  xhttp.onreadystatechange = function() {
-					if (this.readyState == 4 && this.status == 200) {
-					  myFunction(this);
-					}
-				  };
-				  xhttp.open("GET", "ropa_bd.xml", true);
-				  xhttp.send();
-				}				
-				</script> --!>
-				
-			
-    </body>
+    <article>
+        <!--Sección tercera-->
+        <h2>Zapatillas</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="img/zapatilla1.png" alt="zapatilla">
+                    <br>
+                    <p><b>Converse Chuck Taylor All Star<br>
+                            54,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/zapatilla2.png" alt="zapatilla">
+                    <br>
+                    <p><b>Asics Novablast 2<br>
+                            129,00€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/zapatilla3.png" alt="zapatilla">
+                    <br>
+                    <p><b>Buffalo Aspha<br>
+                            104,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/zapatilla4.png" alt="zapatilla">
+                    <br>
+                    <p><b>Vans Authentic Earthday<br>
+                            69,99€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/zapatilla5.png" alt="zapatilla">
+                    <br>
+                    <p><b>Skechers Sneakers Retros gold<br>
+                            53,96€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+                <td>
+                    <img src="img/zapatilla6.png" alt="zapatilla">
+                    <br>
+                    <p><b>Nike City<br>
+                            54,95€
+                        </b></p>
+                    <button onclick="">Comprar</button>
+                </td>
+            </tr>
+        </table>
+
+    </article>
+    <!--Pie de página dinámico con enlace de Atención al cliente-->
+    <footer>
+        <p id="centro"></p>
+        <a href="Contacto.html" id="contacto"></a>
+        <p id="derechos"></p>
+        <small id="alumno1"></small><br>
+        <small id="alumno2"></small>
+    </footer>
+    <!--Fin del pie de página-->
+    <!-- Función para cargar el XML -->
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "footer_bd.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("FOOTER");
+            for (i = 0; i < x.length; i++) {
+                document.getElementById("centro").innerHTML = x[i].getElementsByTagName("CENTRO")[0].childNodes[0].nodeValue;
+                document.getElementById("contacto").innerHTML = x[i].getElementsByTagName("CONTACTO")[0].childNodes[0].nodeValue;
+                document.getElementById("derechos").innerHTML = x[i].getElementsByTagName("DERECHOS")[0].childNodes[0].nodeValue;
+                document.getElementById("alumno1").innerHTML = x[i].getElementsByTagName("ALUMNO1")[0].childNodes[0].nodeValue;
+                document.getElementById("alumno2").innerHTML = x[i].getElementsByTagName("ALUMNO2")[0].childNodes[0].nodeValue;
+            }
+        }
+    </script>
+
+
+</body>
+
 </html>
