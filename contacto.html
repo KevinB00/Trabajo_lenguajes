@@ -1,0 +1,136 @@
+<!-- David Guaita -->
+<!-- confecciono web atención al cliente para que podamos contactar mutuamente, confecciono e inserto el logo de la tienda que te redirige a la página principal, sus respectivos cuadros de introducción de datos con un formulario completo y un pie de página con datos nuestros adicionales. -->
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contacto.</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Llamada al metodo que recupera la base de dats XML-->
+    <script>
+        window.onload = function () {
+            loadDoc();
+        };
+    </script>
+</head>
+
+<body style="background-color: cadetblue;">
+    <div id="page">
+        <!-- INICIO Cabecera -->
+        <header>
+            <h1 style="text-align: center;">
+                <div align="center">
+                    <a href="index.html">
+                        <img src="img/Logo.png" alt="RopaDK" width="30px" height="30px">
+                    </a>
+                </div>
+                RopaDK ( Contactar/Consultas )
+            </h1>
+
+            <hr width="100%">
+        </header>
+        <!-- FIN cabecera -->
+        <!-- INICIO formulario -->
+        <form>
+            <form action="formulario.php" method="post">
+                <fieldset>
+                    <legend>Datos Mail</legend>
+                    <div class="cont1">
+                        <label for="mail">Correo</label>
+                        <input type="email" id="mail" name="mail" placeholder="nombre@hosting.com" size="30"
+                            required="required" autofocus>
+                        <br>
+                        <br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Cliente y Dirección</legend>
+                    <div class="cont2">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="nombre y apellidos" size="50">
+                        <br>
+                        <br>
+                        <label for="direccion">Dirección</label>
+                        <textarea name="direccion" id="direccion" placeholder="calle, número, piso, ciudad" cols="30"
+                            rows="5" required="required"></textarea>
+                        <br>
+                        <br>
+                        <label for="codigopostal">Código Postal</label>
+                        <input type="text" id="codigopostal" placeholder="código postal" maxlength="5"
+                            required="required">
+                        <br>
+                        <br>
+
+                        <label for="pais">País</label>
+                        <select name="pais" id="pais" required="required">
+                            <option value="FR">Francia</option>
+                            <option value="IT">Italia</option>
+                            <option value="AN">Andorra</option>
+                            <option value="PO">Portugal</option>
+                            <option value="AL">Alemania</option>
+                            <option value="UK">Reino Unido</option>
+                            <option value="AM">América</option>
+                            <option value="ES" selected>España</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="telefono">Teléfono fijo/móvil</label>
+                        <input type="tel" id="telefono" name="telefono" required="required"
+                            placeholder="teléfono con prefijo">
+                    </div>
+                </fieldset>
+
+
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+
+            </textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input class="boton2" type="reset" value="Borrar">
+            </form>
+            <!-- FIN formulario -->
+        </form>
+        <!-- FIN formulario -->
+    </div>
+    <!--Pie de página dinámico con enlace de Atención al cliente-->
+    <footer>
+        <p id="centro"></p>
+        <a href="Contacto.html" id="contacto"></a>
+        <p id="derechos"></p>
+        <small id="alumno1"></small><br>
+        <small id="alumno2"></small>
+    </footer>
+    <!--Fin del pie de página-->
+    <!-- Función para cargar el XML -->
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "footer_bd.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("FOOTER");
+            for (i = 0; i < x.length; i++) {
+                document.getElementById("centro").innerHTML = x[i].getElementsByTagName("CENTRO")[0].childNodes[0].nodeValue;
+                document.getElementById("contacto").innerHTML = x[i].getElementsByTagName("CONTACTO")[0].childNodes[0].nodeValue;
+                document.getElementById("derechos").innerHTML = x[i].getElementsByTagName("DERECHOS")[0].childNodes[0].nodeValue;
+                document.getElementById("alumno1").innerHTML = x[i].getElementsByTagName("ALUMNO1")[0].childNodes[0].nodeValue;
+                document.getElementById("alumno2").innerHTML = x[i].getElementsByTagName("ALUMNO2")[0].childNodes[0].nodeValue;
+            }
+        }
+    </script>
+</body>
+
+</html>
