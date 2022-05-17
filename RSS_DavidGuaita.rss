@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Deportes</title>
+  <link>https://github.com/KevinB00/tiendaropa_kevinydavid/blob/main/index.html</link>
+  <description>noticias</description>
+  <item>
+    <title>Coches</title>
+    <link>https://www.levante-emv.com/motor/coches/</link>
+    <description>actualidad coches</description>
+  </item>
+  <item>
+    <title>Futbol</title>
+    <link>https://as.com/futbol/</link>
+    <description>actualidad futbol</description>
+  </item>
+  <item>
+    <title>Eventos</title>
+    <link>https://www.deportesyfinanzas.com/eventos-deportivos/</link>
+    <description>actualidad deportiva</description>
+  </item>
+
+</channel>
+
+</rss>
