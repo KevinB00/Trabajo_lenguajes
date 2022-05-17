@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+   <title>Canal de noticias</title>
+   <id>"http://127.0.0.1:5500/index.html"</id> 
+   <link rel="self" type="application/atom+xml" href="http://127.0.0.1:5500/feed/atom_kevinrodrigo.atom"/>
+   <link rel="alternate" type="text/html" href="http://127.0.0.1:5500/index.html"/> 
+   <author>   
+     <name>Kevin</name>
+     <email>keveva@alu.iesserpis.org</email>
+   </author>
+   <entry>
+      <title>Foot Locker sella una alianza con Adidas</title>
+      <id>https://www.2playbook.com/retail/adidas-foot-locker-firman-alianza-generara-1896-millones-en-ventas-cara-2025_7956_102.html</id>     
+      <link rel="alternate" type="text/html" href="https://www.2playbook.com/retail/adidas-foot-locker-firman-alianza-generara-1896-millones-en-ventas-cara-2025_7956_102.html"/>
+      <author>   
+         <name>Kevin</name>
+         <email>keveva@alu.iesserpis.org</email>
+      </author>
+      <summary>Con este acuerdo, Foot Loker se convierte en el principal socio en la categoría de baloncesto de Adidas, en una unión que supondrá unos ingresos extra para la compañía alemana de 100 millones de euros en el ejercicio 2022.</summary>
+   </entry>
+   <entry>
+      <title>Empresa estadounidense de ropa deportiva cancela contrato con Spartak Moscú</title>
+      <id>https://www.grupolaprovincia.com/deportes/empresa-estadounidense-de-ropa-deportiva-cancela-contrato-con-spartak-moscu-936229</id>     
+      <link rel="alternate" type="text/html" href="https://www.grupolaprovincia.com/deportes/empresa-estadounidense-de-ropa-deportiva-cancela-contrato-con-spartak-moscu-936229"/>
+      <author>   
+         <name>Kevin</name>
+         <email>keveva@alu.iesserpis.org</email>
+      </author>
+      <summary>La empresa estadounidense de ropa deportiva, Nike, rompió relaciones con el club ruso Spartak Moscú, después de 17 años de un patrocinio ininterrumpido, como parte de las restricciones que provoca la invasión rusa al territorio ucraniano.</summary>
+   </entry>
+   <entry>
+      <title>Los fabricantes chinos de ropa deportiva ven un futuro brillante</title>
+      <id>https://espanol.cgtn.com/n/2022-05-04/GfEaEA/Los-fabricantes-chinos-de-ropa-deportiva-ven-un-futuro-brillante/index.html</id>     
+      <link rel="alternate" type="text/html" href="https://espanol.cgtn.com/n/2022-05-04/GfEaEA/Los-fabricantes-chinos-de-ropa-deportiva-ven-un-futuro-brillante/index.html"/>
+      <author>   
+         <name>Kevin</name>
+         <email>keveva@alu.iesserpis.org</email>
+      </author>
+      <summary>Según el informe de GIA, se espera que las ventas mundiales de ropa deportiva alcancen los 221.300 millones de dólares en 2026. Está previsto que las ventas en China, la segunda economía del mundo, alcancen los 27.000 millones de dólares en el mismo periodo, con una tasa de crecimiento anual compuesta del 7,3 %.</summary>
+   </entry>
+   </feed>

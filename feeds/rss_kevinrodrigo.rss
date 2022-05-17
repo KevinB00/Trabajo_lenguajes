@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Canal de noticias</title>
+  <link>http://127.0.0.1:5500/index.html</link>
+  <description>Apartado de noticias de la página WEB</description>
+  <item>
+    <title>Foot Locker sella una alianza con Adidas</title>
+    <link>https://www.2playbook.com/retail/adidas-foot-locker-firman-alianza-generara-1896-millones-en-ventas-cara-2025_7956_102.html</link>
+    <description>Con este acuerdo, Foot Loker se convierte en el principal socio en la categoría de baloncesto de Adidas, en una unión que supondrá unos ingresos extra para la compañía alemana de 100 millones de euros en el ejercicio 2022.</description>
+  </item>
+  <item>
+    <title>Empresa estadounidense de ropa deportiva cancela contrato con Spartak Moscú</title>
+    <link>https://www.grupolaprovincia.com/deportes/empresa-estadounidense-de-ropa-deportiva-cancela-contrato-con-spartak-moscu-936229</link>
+    <description>La empresa estadounidense de ropa deportiva, Nike, rompió relaciones con el club ruso Spartak Moscú, después de 17 años de un patrocinio ininterrumpido, como parte de las restricciones que provoca la invasión rusa al territorio ucraniano.</description>
+  </item>
+  <item>
+    <title>Los fabricantes chinos de ropa deportiva ven un futuro brillante </title>
+    <link>https://espanol.cgtn.com/n/2022-05-04/GfEaEA/Los-fabricantes-chinos-de-ropa-deportiva-ven-un-futuro-brillante/index.html</link>
+    <description>Según el informe de GIA, se espera que las ventas mundiales de ropa deportiva alcancen los 221.300 millones de dólares en 2026. Está previsto que las ventas en China, la segunda economía del mundo, alcancen los 27.000 millones de dólares en el mismo periodo, con una tasa de crecimiento anual compuesta del 7,3 %.</description>
+  </item>
+</channel>
+
+</rss> 
