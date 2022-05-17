@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+   <title type="text">Deportes</title>
+   <id>https://github.com/KevinB00/tiendaropa_kevinydavid/blob/main/index.html</id>
+
+   <link rel="self" type="application/atom+xml"
+href="https://github.com/KevinB00/tiendaropa_kevinydavid/blob/main/feeds/ATOM_DavidGuaita.atom"/>
+
+   <link rel="alternate" type="text/html"
+href="https://github.com/KevinB00/tiendaropa_kevinydavid/blob/main/index.html"/>
+
+<updated>2022-05-1718:21:56Z</updated>
+
+<author> 
+   <name>David Guaita</name>
+   <email>davons@alu.iesserpis.org</email>
+</author>
+
+<entry>
+ <title>Coches</title>
+    <id>https://www.levante-emv.com/motor/coches/</id>
+<link rel="alternate" type="text/html"
+href="http://www.levante-emv.com/motor/coches/ />
+<updated>2022-05-1718:21:57Z</updated>
+
+<author> 
+   <name>David Guaita</name>
+   <email>davons@alu.iesserpis.org</email>
+</author>
+ <summary>actualidad coches</summary>
+</entry>
+
+<entry>
+ <title>Futbol</title>
+    <id>https://as.com/futbol/</id>
+<link rel="alternate" type="text/html"
+href="https://as.com/futbol/ />
+<updated>2022-05-1718:21:58Z</updated>
+
+<author> 
+   <name>David Guaita</name>
+   <email>davons@alu.iesserpis.org</email>
+</author>
+ <summary>actualidad futbol</summary>
+</entry>
+
+<entry>
+ <title>Eventos</title>
+    <id>https://www.deportesyfinanzas.com/eventos-deportivos/</id>
+<link rel="alternate" type="text/html"
+href=https://www.deportesyfinanzas.com/eventos-deportivos/ />
+<updated>2022-05-1718:21:59Z</updated>
+
+<author> 
+   <name>David Guaita</name>
+   <email>davons@alu.iesserpis.org</email>
+</author>
+ <summary>actualidad deportiva</summary>
+</entry>
